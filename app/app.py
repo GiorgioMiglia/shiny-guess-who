@@ -6,9 +6,7 @@ import random
 import random
 
 def randomize_list(data_file):
-    with open(data_file, "r") as f:
-        lines = [line.strip() for line in f.readlines()]
-
+    lines = ['JavaScript', 'Python', 'Java', 'C', 'C++', 'Ruby', 'PHP', 'C#', 'Swift', 'Kotlin', 'TypeScript', 'Go', 'Rust', 'Haskell', 'Lisp', 'Lua', 'Scala', 'Scheme', 'Brainfuck', 'Whitespace', 'Befunge', 'React', 'Vue.js', 'Angular', 'Svelte', 'Next.js', 'Nuxt.js', 'Ember.js', 'Backbone.js', 'Meteor']
     random.shuffle(lines)
     return lines
 
